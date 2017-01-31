@@ -1,0 +1,187 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+img{
+	width:100%;
+}
+ul{
+	padding: 3em;
+    float: right;
+}
+
+/*Theme CSS*/
+/*CSS for Header Section*/
+header{
+	background-image: url(../images/header_background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 2em;
+}
+header h3{
+	padding: 1em;
+} 
+carousel-inner img{
+	width: 1400px;
+}
+
+/*CSS for Header Section*/
+
+/*CSS for Portfolio Section*/
+.portfolio{
+	padding: 2em;
+}
+.portfolio h1{
+	font-size: 3em;
+}
+.portfolio span{
+	font-size: 1.5em;
+	padding: 5px;
+}
+.portfolio p{
+    padding: 15px 5px;
+    line-height: 1.6;
+    word-spacing: 1px;
+} 
+/*CSS for Portfolio Section*/
+/*CSS for Portfolio Image Section*/
+.portfolio-image{
+	background-image: url(../images/portfolio_background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4em 0em;
+}
+.portfolio-image img{
+	margin-bottom: 16px;
+}
+/*CSS for Portfolio Image Section*/
+/*CSS for About Section*/
+.about{
+	padding: 4em 1em;
+}
+.about p{
+	line-height: 1.8;
+    font-size: 16px;
+    word-spacing: 1px;
+}
+.about input{
+	background-color: #eee;
+}
+.about textarea{
+	background-color: #eee;
+}
+
+
+/*CSS for Footer Section*/
+footer p{
+	padding-top: 4em;
+	line-height: 2;
+} 
+
+
+/*Bootstrap theme modifier*/
+.btn-group-lg>.btn, .btn-lg {
+    padding: 11px 35px;
+    font-size: 22px;
+}
+.btn{
+	margin-top: 20px;
+}
+.btn-default{
+    color: #000;
+    background-color: #eee;
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 480px) {
+	header h3{
+	font-size:16px;
+	padding: 0px;
+	text-align: center;
+	}
+
+	header ul{
+		text-align: center;
+	}	
+	.portfolio p{
+	    text-align: justify;
+	} 
+	.portfolio h1{
+		font-size: 24px;
+		text-align: center;
+	}
+	.about{
+		padding-top:0px;
+	}
+	.about img{
+	    width: 40%;
+	    margin-left: 30%;
+	}
+	.about h4 {
+		text-align: center;
+	}
+	.about p {
+		text-align: justify;
+	}
+	.btn-group-lg>.btn, .btn-lg {
+	    padding: 8px 20px;
+	    font-size: 22px;
+	}
+	.btn{
+		margin-bottom: 30px;
+	}
+	footer p{
+		font-size: 12px;
+		text-align: center;
+		}
+	footer .list-inline{
+		text-align: center;
+		}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+header h3{
+	font-size:18px;
+	padding: 0px;
+	text-align: center;
+}
+.portfolio h1{
+	font-size: 26px;
+}
+.about img{
+/*    width: 40%;*/
+}
+.about p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 8px 20px;
+    font-size: 22px;
+}
+.about form{
+	padding-top:1em;
+}
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+.about img{
+	    width: 100%;
+	}
+	.about p {
+	    line-height: 1.5;
+	    font-size: 12px;
+	}
+}
+@media (min-width: 1200px) {
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+		width: 1200px;
+	}
+}
+
+
